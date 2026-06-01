@@ -1,0 +1,16 @@
+{
+  "name": "jizhihui-lawyer.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Short GitHub Pages URL for the jizhihui 2026 FIFA World Cup calendar.",
+  "scripts": {
+    "test": "node --test",
+    "generate": "node scripts/generate-root-feed.js",
+    "generate:offline": "node scripts/generate-root-feed.js --offline"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {}
+}
